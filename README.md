@@ -15,15 +15,6 @@ Print the last 10 lines of FILE to standard output.
 
 n is an optional argument, allowing user to specify the number of lines to display.
 
-Hints:
-
-Program must use all C code and C libraries.  No C++.
-Program does not prompt the user. 
-All input to the program is taken through the command line.
-You may assume any value for n will be an integer ( 5, 3, 22, etc )
-count \n characters.
-You may assume each line within the text file will be at most 256 characters long.
-
 Sample Usages:
 
 tail sample.cpp        -- displays the last 10 lines of sample.cpp, or the entire file if fewer than 10 lines
